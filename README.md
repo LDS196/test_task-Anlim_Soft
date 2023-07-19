@@ -9,7 +9,7 @@
 
 2.
 Для того чтобы не было лишних тегов, необходимо закрыть тег <component-name>.Исправить ошибку синтаксиса в определении переменной count в  data, заменив точку с запятой на запятую.
-
+```
 <template>
 	<component-name
 		v-for="i of count" 
@@ -27,9 +27,10 @@ export default {
 	},
 };
 </script>
+```
 
 3.
-
+```
 function convertToObj(array) {
   const result = {};
   for (const item of array) {
@@ -38,3 +39,4 @@ function convertToObj(array) {
   }
   return result;
 }
+```
